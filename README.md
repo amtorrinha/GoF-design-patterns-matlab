@@ -6,4 +6,5 @@ This repository will be updated with MATLAB implementations of the Gang-of-Four 
 This work is being done in the context of a master thesis at FCT NOVA, titled "Assessing MATLAB's OO features through the GoF patterns".
 
 References:
+
 [1] Gamma, E., Helm, R., Johnson, R. and Vlissides, J. Design Patterns : Elements of Reusable Object-Oriented Software. Boston: Addison-Wesley, 1995.
