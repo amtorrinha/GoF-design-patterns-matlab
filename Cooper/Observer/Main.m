@@ -16,14 +16,14 @@ classdef Main
         function testObserver()
             mainWindowSubject = Window4ObserverSubject;
 
-            colorFrame1 = ColorFrameObserver;
-            colorFrame2 = ColorFrameObserver;
-            colorFrame3 = ColorFrameObserver;
+            colorFrame = ColorFrameObserver(mainWindowSubject);
+            %colorFrame2 = ColorFrameObserver;
+            %colorFrame3 = ColorFrameObserver;
 
             %register with Subject
-            mainWindowSubject.addObserver(colorFrame1);
-            mainWindowSubject.addObserver(colorFrame2);
-            mainWindowSubject.addObserver(colorFrame3);
+            %mainWindowSubject.addObserver(colorFrame1);
+            %mainWindowSubject.addObserver(colorFrame2);
+            %mainWindowSubject.addObserver(colorFrame3);
 
             colorList = ColorListObserver;
             mainWindowSubject.addObserver(colorList);

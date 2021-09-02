@@ -1,4 +1,4 @@
-classdef (Abstract) Observer < handle & matlab.mixin.Heterogeneous
+classdef (Abstract) Observer < handle% & matlab.mixin.Heterogeneous
     properties
         StateEventListener
     end
