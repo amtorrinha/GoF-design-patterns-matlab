@@ -1,0 +1,2 @@
+%ObservedFlower.printHelpMessage();
+ObservedFlower.testObserver();

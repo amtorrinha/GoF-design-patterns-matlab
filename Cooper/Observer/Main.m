@@ -1,7 +1,6 @@
 classdef Main
     
     methods (Static)
-
         function printHelpMessage()
             fprintf(['Observer design pattern\n'...
                                    'Intent: define a one-to-many dependency between objects\n'...
