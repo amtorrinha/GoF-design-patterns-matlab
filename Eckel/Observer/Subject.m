@@ -5,6 +5,9 @@ classdef (Abstract) Subject < handle
         
         %Tell the Subject you are no longer interested
         removeObserver(obj, obs)
+        
+        %Notify all the observers
+        notifyObservers(obj)
     end
     
     events
