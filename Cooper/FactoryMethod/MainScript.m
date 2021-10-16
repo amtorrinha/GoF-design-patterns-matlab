@@ -1,0 +1,2 @@
+Main.printHelpMessage();
+Main.testFactoryMethod();
