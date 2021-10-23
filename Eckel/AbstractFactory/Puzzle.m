@@ -1,7 +1,7 @@
 classdef Puzzle < Obstacle
     methods (Static)
-        function action()
-            disp("Puzzle");
+        function text = action()
+            text = "Puzzle";
         end
     end
 end

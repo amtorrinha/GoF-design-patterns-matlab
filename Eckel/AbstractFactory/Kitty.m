@@ -1,8 +1,7 @@
 classdef Kitty < Player
     methods (Static)
         function interactWith(obstacle)
-            disp("Kitty has encountered a ");
-            obstacle.action();
+            fprintf("Kitty has encountered a %s\n", obstacle.action());
         end
     end
 end

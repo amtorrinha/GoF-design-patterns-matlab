@@ -1,8 +1,7 @@
 classdef KungFuGuy < Player
     methods (Static)
         function interactWith(obstacle)
-            disp("KungFuGuy now battles a ");
-            obstacle.action();
+            fprintf("KungFuGuy now battles a %s\n", obstacle.action());
         end
     end
 end
